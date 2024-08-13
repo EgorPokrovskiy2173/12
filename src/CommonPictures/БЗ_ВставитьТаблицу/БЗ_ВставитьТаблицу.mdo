@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e153e37e-54b4-4c74-a1ee-71ba94be4eb3">
+  <name>БЗ_ВставитьТаблицу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вставить таблицу</value>
+  </synonym>
+</mdclass:CommonPicture>

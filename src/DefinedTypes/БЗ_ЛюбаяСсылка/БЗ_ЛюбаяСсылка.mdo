@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3242ff80-b4eb-491f-a84b-aa79f4221f4d">
+  <producedTypes>
+    <containerType typeId="03fc5fad-b14b-4836-81cd-5a067187d643" valueTypeId="a2904d53-e233-432a-a8ed-76a8c511e0a0"/>
+  </producedTypes>
+  <name>БЗ_ЛюбаяСсылка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Любая ссылка</value>
+  </synonym>
+  <type/>
+</mdclass:DefinedType>

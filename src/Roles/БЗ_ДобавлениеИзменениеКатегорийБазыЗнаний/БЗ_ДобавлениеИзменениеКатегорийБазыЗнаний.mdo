@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f73bb9d8-84dc-4cb9-8bd7-620477ef8ac1">
+  <name>БЗ_ДобавлениеИзменениеКатегорийБазыЗнаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение категорий базы знаний (База знаний)</value>
+  </synonym>
+</mdclass:Role>

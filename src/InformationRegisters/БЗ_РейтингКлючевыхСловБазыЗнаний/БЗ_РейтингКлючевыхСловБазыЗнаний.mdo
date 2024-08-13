@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dacc5b4a-4b8e-4ebc-bc54-3337ed49c8ff">
+  <producedTypes>
+    <selectionType typeId="d37608e4-3894-4b26-96c0-8a8d43d8b409" valueTypeId="575a742b-aee8-4868-93e0-17317e31b264"/>
+    <listType typeId="ff8da5db-6ba4-4cdf-9c43-1887973941a9" valueTypeId="bc433f04-dffd-4fca-aff2-f8115882e598"/>
+    <managerType typeId="d2368bfa-5316-4189-bc38-520d5806df2b" valueTypeId="b6332dbd-1807-4f92-b4b2-7a8e6136208d"/>
+    <recordSetType typeId="15b6a72d-2e94-421c-b150-90a644b93ce2" valueTypeId="fc0cd4ee-a1c3-4a11-abc8-988d8f4f3dca"/>
+    <recordKeyType typeId="2a61fba1-af6c-4a18-aee0-f6c33fe104b3" valueTypeId="e4d5963f-abfc-4d74-993b-ba61a786108f"/>
+    <recordType typeId="8700c3d5-a6d8-495d-8c53-ac0cfa47aa5f" valueTypeId="e732d4dc-0b32-4d2c-89ab-81ed95006eff"/>
+    <recordManagerType typeId="0aec5987-b533-4893-891a-2a54416cde10" valueTypeId="a3088329-2a70-415f-9d58-fb614b6e4f9c"/>
+  </producedTypes>
+  <name>БЗ_РейтингКлючевыхСловБазыЗнаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рейтинг ключевых слов базы знаний</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="07db3894-7e55-46cd-8ae7-a975255318c5">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="336ac57c-c519-472c-b537-c7d15a4a86cc">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="4234c249-ca68-4126-8ea9-c4ff30f7a124">
+    <name>КлючевоеСлово</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключевое слово</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БЗ_КлючевыеСловаБазыЗнаний</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a5b7fe75-6ba5-4fa1-8fb5-a22ded6de9f2">
+    <name>КатегорияБазыЗнаний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория базы знаний</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БЗ_КатегорииБазыЗнаний</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

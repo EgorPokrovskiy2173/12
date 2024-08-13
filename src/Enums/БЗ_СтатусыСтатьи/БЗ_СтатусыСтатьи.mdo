@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa63c17e-8e0f-4415-904f-090cc22812ab">
+  <producedTypes>
+    <refType typeId="ff188d9a-553d-4844-b0e5-dea81c922124" valueTypeId="0bff86e0-d23e-402f-bab5-2926c3b9ff74"/>
+    <listType typeId="da56d882-d7ae-43ae-9dc7-2a64ed1f33e8" valueTypeId="a436bf25-f02a-4401-832d-0cd3d4bd6696"/>
+    <managerType typeId="9e7c657d-be58-4f12-9634-adb77010eb1b" valueTypeId="b1847b7d-a599-48a8-af47-ccba94546ffe"/>
+  </producedTypes>
+  <name>БЗ_СтатусыСтатьи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы статьи (База знаний)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4f5c03ad-77a1-40d0-acb0-acfd2a72a4d7">
+    <name>НеЗагружать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не требуется загрузка на сайт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3804434d-63ff-411b-a76b-632cf6fd3ce3">
+    <name>Загружать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется загрузка на сайт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9a93622f-b020-48b6-b8a9-d80e540c2027">
+    <name>УКопирайтера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья у копирайтера</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d427e6a6-9539-4262-a4af-9b8fa3c643b1">
+    <name>Загружена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загружена на сайт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4882d91-ed63-4a08-8515-15aa07e028ee">
+  <name>БЗ_ПроверкаПравописания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка правописания</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Spell Check</value>
+  </synonym>
+  <comment>Проверка правописания</comment>
+</mdclass:CommonPicture>

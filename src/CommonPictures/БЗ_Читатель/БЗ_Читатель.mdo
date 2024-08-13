@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1d94406-48dd-4cf0-b7f9-4cedc32738da">
+  <name>БЗ_Читатель</name>
+  <synonym>
+    <key>ru</key>
+    <value>Читатель</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>The task are accept</value>
+  </synonym>
+</mdclass:CommonPicture>

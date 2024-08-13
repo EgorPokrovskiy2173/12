@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="898e06fb-4658-4657-94e3-fbaedca4610f">
+  <name>БЗ_ВставитьГиперссылку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вставить гиперссылку</value>
+  </synonym>
+</mdclass:CommonPicture>

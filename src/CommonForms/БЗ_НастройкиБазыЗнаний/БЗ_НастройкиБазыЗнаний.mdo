@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="819ee3d1-e1bf-428c-801e-93cbb84e1a3e">
+  <name>БЗ_НастройкиБазыЗнаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки базы знаний</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9cade643-0d9d-4e63-a80f-d77a57783583">
+  <name>БЗ_БазаЗнанийHTMLКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>База знаний верстка страниц (клиент сервер)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92204ee8-0b1d-40ea-880a-d88f24933382">
+  <name>БЗ_Избранное</name>
+  <synonym>
+    <key>ru</key>
+    <value>Избранное (База знаний)</value>
+  </synonym>
+</mdclass:CommonPicture>

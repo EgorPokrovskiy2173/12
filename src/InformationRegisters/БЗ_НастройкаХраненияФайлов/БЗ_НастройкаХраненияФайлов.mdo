@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05cbb2a8-865b-4502-bcb2-2fd8cc0cab56">
+  <producedTypes>
+    <selectionType typeId="3dafdf79-c9c8-4742-a491-8deb0ee4c3c8" valueTypeId="87bec8b2-ad2d-4ced-8011-141ec3abb6a8"/>
+    <listType typeId="a30743bb-ad1d-4d24-96a9-8363449b5917" valueTypeId="76642914-d1f3-4456-86db-24d739ce4a1f"/>
+    <managerType typeId="603385d5-0f6a-4b54-9da1-a46ce2d97989" valueTypeId="79b418a3-1f46-4cfd-94ce-4fbd86384905"/>
+    <recordSetType typeId="e9fa2ee5-4f7c-4b23-9cab-d314504b66c6" valueTypeId="a55cea72-6e4e-40b5-ac4b-29614a03d3d0"/>
+    <recordKeyType typeId="ced5e005-14e9-4b25-a434-42da31f0e49a" valueTypeId="a2378c85-5b8a-4e6f-afdf-916cfba3d6b4"/>
+    <recordType typeId="6344dd33-ed4c-4d38-907d-0feca02e5ea8" valueTypeId="e8384bc4-9d41-4e34-8ef0-176fb4bf7b1f"/>
+    <recordManagerType typeId="164fe330-28c1-4555-97df-01b98af6f7a1" valueTypeId="ca397878-78d8-47d5-84e2-1c28aff75204"/>
+  </producedTypes>
+  <name>БЗ_НастройкаХраненияФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка хранения файлов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="35d244a5-27ab-429e-8bf5-e8b3ad491387">
+    <name>МестоХраненияФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения файлов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f3b832db-4856-462b-93ae-21edd98f7033">
+    <name>КаталогФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог файлов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value>c:\</value>
+    </fillValue>
+  </resources>
+  <resources uuid="992bae55-8e66-47b0-8a09-f5e114f2f1d8">
+    <name>ИспользоватьСжатие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать сжатие</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e8de4209-7f78-4245-a766-b065dde0721b">
+    <name>МетодСжатия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод сжатия</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="084dcdf4-6daa-4e5f-8541-d49fc6f3085c">
+    <name>МаксРазмерФайлаДляИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макс размер файла для ИБ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1048576</value>
+    </fillValue>
+  </resources>
+</mdclass:InformationRegister>

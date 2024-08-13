@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="648d9610-8b5f-476c-ba29-0ee9e13d083a">
+  <producedTypes>
+    <selectionType typeId="c045bb9c-122b-4899-8d56-c129f55bdba3" valueTypeId="3ba52136-c989-48f3-95bc-d959e9a70321"/>
+    <listType typeId="7aa58cdc-5bc1-429f-9761-3c2b9896c434" valueTypeId="72cc17a6-c624-4d12-92e5-9da9c6044319"/>
+    <managerType typeId="3ab394e5-1bfd-47c1-9066-943180e78bd3" valueTypeId="0569da4d-7553-4796-9fe5-88099ed725bb"/>
+    <recordSetType typeId="4db13c2e-ee46-45ab-aa0f-1b091b7a9e57" valueTypeId="c4b10546-23e5-4dae-b6ad-e01d9f965f8d"/>
+    <recordKeyType typeId="75abb52d-adec-4684-8ac2-1aa94cc74897" valueTypeId="8b325752-8c16-4ff8-b544-4c240eadfe8e"/>
+    <recordType typeId="cf1a5a92-2ade-4053-aa38-c91334779221" valueTypeId="5feac362-dbdb-41d7-ad49-7136ad791424"/>
+    <recordManagerType typeId="602cf224-e2b5-4623-8bf5-fb4d7599ec2c" valueTypeId="06c016c9-fe9f-4a91-8bd5-8d01c1519a7f"/>
+  </producedTypes>
+  <name>БЗ_СтатьиБазыЗнанийПоЗадаче</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи &quot;Базы знаний&quot; по задаче (АйТи)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="16053503-1a77-4c83-887e-ca1da6db967f">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="35160c60-67ee-4c55-8c86-a654093dcf18">
+    <name>СтатьяБазыЗнаний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья базы знаний</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БЗ_СтатьиБазыЗнаний</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

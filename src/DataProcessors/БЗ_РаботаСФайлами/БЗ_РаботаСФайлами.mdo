@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ce85ad8-9dfb-4cf5-87d7-10b44ae6e735">
+  <producedTypes>
+    <objectType typeId="054d81bd-c66e-49e9-8364-682dd3f945ee" valueTypeId="f33c5991-9dfd-4aef-abef-197419c3eeb2"/>
+    <managerType typeId="7acbc2bc-a76b-498f-ace5-1436e521fb79" valueTypeId="7945eda2-f264-4509-beb6-78fac8629643"/>
+  </producedTypes>
+  <name>БЗ_РаботаСФайлами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с файлами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="db57ccf5-f382-4452-a90e-7011abbad9f1">
+    <name>ВерсияПрисоединенногоФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия присоединенного файла</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="afedd7f8-38ba-454a-847c-8f461f974ae5">
+    <name>ВсеФайлы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Все файлы</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="541efa1e-bd41-45fb-a4b9-f184fb539e80">
+    <name>ВопросПриИмпортеФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вопрос при импорте файлов</value>
+    </synonym>
+    <comment>Сообщение о файлах, чей размер превышает допустимый</comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2a39f085-4ad0-4cb4-9102-d6b6aa7c3c35">
+    <name>ВыборКодировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор кодировки</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d614c343-e001-4cc7-9559-95759c3e3664">
+    <name>ВыборСпособаСравненияВерсий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор способа сравнения версий</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6f71cdb0-9e58-4759-8abf-89feb5df3306">
+    <name>ВыборСохраненияШифрованногоФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор сохранения шифрованного файла</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e466b7b0-3b69-462a-b509-7ae82055e904">
+    <name>ГруппаФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа файлов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4b51d5dd-a176-49d5-8ca7-92c47c042e7a">
+    <name>ПрисоединенныйФайл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Присоединенный файл</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="42996b34-ab4b-4099-8d46-eaf7b927ab6b">
+    <name>ПрисоединенныеФайлы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Присоединенные файлы</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4575e55f-1f61-4a53-beb7-c2abdda44785">
+    <name>РедактированиеТекстовогоФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование текстового файла</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6df2ceab-7038-43d6-ba39-6a16e299a26d">
+    <name>РедактируемыеФайлы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактируемые файлы</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d64db280-45ff-448e-afc7-a69d4d7b3fa9">
+    <name>РежимСозданияФайлаДляСохранитьКак</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим создания файла для сохранить как</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ea337aea-bac7-46b9-86a1-7efe9c581269">
+    <name>СписокЗанятыхСВопросом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список занятых с вопросом</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2a4f5ab6-9dd1-4ec9-99fe-dc019d04b9d5">
+    <name>ФайлСуществует</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл существует</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="faff10e6-53a7-4f7c-9ed8-43fb463f3a09">
+    <name>ФормаВыбораРежимаОткрытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора режима открытия</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5eafe2b7-70dc-46dc-9617-6ec86a8008b4">
+    <name>ФормаВозвратаФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма возврата файла</value>
+    </synonym>
+    <comment>Комментарий к версии</comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7a0922c3-fa23-490d-85aa-0012813eb3f3">
+    <name>ФормаВопроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма вопроса</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2ed95f53-5cde-4ff6-8677-1319d1e097fc">
+    <name>ФормаИмпортаФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма импорта файлов</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ed66ffb8-6ffe-41cf-8d77-c86b5c4eb367">
+    <name>ФормаЗавершениеРедактирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма завершение редактирования</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e8f26ff0-7f5e-4ced-8ba5-88115e6524e4">
+    <name>ФормаИмпортаПапки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма импорта папки</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="645003b8-1121-43c2-9dd1-865c0cc91fa2">
+    <name>ФормаЭкспортаПапки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма экспорта папки</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a30c8192-0c37-488d-99a0-be5276e5ecf1">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="36cd7f65-d64a-4fc2-ba78-87a22badaaeb">
+    <name>ВыборГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

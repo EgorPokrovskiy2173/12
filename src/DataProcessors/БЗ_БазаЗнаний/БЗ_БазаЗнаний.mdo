@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="455f7543-1f7c-4bb7-96c8-b9e3ea46a5ba">
+  <producedTypes>
+    <objectType typeId="91282cd8-756e-4ffe-a045-8503c0ef0f49" valueTypeId="faa9c86d-72a7-45ca-8b0d-86b502bc4b63"/>
+    <managerType typeId="d725cd15-ce50-4ae5-b163-ab11143efaf9" valueTypeId="c88deabb-bf57-4db3-934c-1572b9f69db8"/>
+  </producedTypes>
+  <name>БЗ_БазаЗнаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>База знаний</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.БЗ_БазаЗнаний.Form.Форма</defaultForm>
+  <attributes uuid="e73e0350-b643-40c2-bc2c-0c41fd1a7018">
+    <name>СтатьяБазыЗнаний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья базы знаний</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БЗ_СтатьиБазыЗнаний</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ca78f727-6521-4e20-ac9e-3eb9ff41d758">
+    <name>Область</name>
+    <synonym>
+      <key>ru</key>
+      <value>Область</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="93d6a038-5456-4871-b07c-00c4f2b57916">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="668e69c2-7200-4029-b007-ac89c10d438b">
+    <producedTypes>
+      <objectType typeId="0ef39cec-0e40-48bd-ac3b-26e01d8c7ffa" valueTypeId="9bfecc7b-4087-49d3-a4d5-778be80e3803"/>
+      <rowType typeId="9b3b8915-8ae3-408c-bdcb-2cf1296dd710" valueTypeId="bf96dbd5-9a8e-47f1-933b-a6deeb2de283"/>
+    </producedTypes>
+    <name>История</name>
+    <synonym>
+      <key>ru</key>
+      <value>История</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="a70c57b3-9d28-42be-ba90-04daada47658">
+      <name>ТекстСтраницы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текст страницы</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="e5749da6-93f5-442f-a897-c74dcf1380c4">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="fddb2ef6-b477-426f-bb09-6af8b62a557f">
+      <name>АдресСсылки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Адрес ссылки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="95711758-f0e2-4f8d-be64-ef1b0ce58c04">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="779c4e55-77f5-46a4-9cb7-3d3afd8c5364">
+    <name>Администрирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администрирование</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4c85e318-f8d3-41ef-9fb4-a7815ce78772">
+    <name>ФормаКопированияСсылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма копирования ссылки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="4c1ce7ab-ce74-4064-ae2b-2eafb8393bf8">
+    <name>jquery_1_11_0</name>
+    <synonym>
+      <key>ru</key>
+      <value>jquery-1.11.0.js</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="214e2041-6b36-428c-9f67-fcb1fd6faa91">
+    <name>jquery_1_11_0_min</name>
+    <synonym>
+      <key>ru</key>
+      <value>jquery_1_11_0_min.js</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="de267b59-4f34-4998-9729-d557d2d40ab4">
+    <name>kdb_script</name>
+    <synonym>
+      <key>ru</key>
+      <value>Kdb script</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="985d5888-2d38-460a-baff-b5a637f6e6d1">
+    <name>pictures_v1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Pictures v1</value>
+    </synonym>
+    <comment>1.1</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="c1b89c78-6448-4da8-9778-5f87f06c89e0">
+    <name>Pictures_FileType</name>
+    <synonym>
+      <key>ru</key>
+      <value>Pictures file type</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="5cd2e164-bbd6-4c67-b4c9-83f985539435">
+    <name>МакетДляСпискаСтатей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет для списка статей</value>
+    </synonym>
+  </templates>
+  <templates uuid="78c30dfe-8a5e-4e01-83fa-e9a72a0ceb7f">
+    <name>МакетОтчетИзучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет отчет изучения</value>
+    </synonym>
+  </templates>
+  <commands uuid="c7b93960-0abf-4527-aa76-ed983d3ffd05">
+    <name>ОткрытьБазуЗнаний</name>
+    <synonym>
+      <key>ru</key>
+      <value>База знаний</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.БЗ_БазаЗнанийКоманда</picture>
+    </picture>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91246105-4cbe-45b1-844d-763445c92a02">
+  <producedTypes>
+    <selectionType typeId="3fc95302-3104-48e9-8a0e-5feaa75d0abf" valueTypeId="d1140ed5-7db8-438e-9987-fe12991b9e4e"/>
+    <listType typeId="ca15b5bd-f036-4ba9-a945-85a93cffc7d0" valueTypeId="48b79317-de6a-4adb-bfb3-0cfc1bb98015"/>
+    <managerType typeId="62b8bf9c-4a3d-4034-bc7e-cbee159efe50" valueTypeId="6695ac44-53c9-4daf-a150-7774c821ee33"/>
+    <recordSetType typeId="56e65a37-0e81-4efc-b96f-1784b4b167d8" valueTypeId="0f915aed-3272-401d-9800-dba2a5275622"/>
+    <recordKeyType typeId="6ac7a105-4a52-4779-8567-f626bd244358" valueTypeId="c9c343aa-3ab8-41a7-b3e1-285b37b6ff91"/>
+    <recordType typeId="cfc4a49a-54f5-4dfb-8cef-7ba5b037ba45" valueTypeId="63617722-dac9-4d4b-92a2-1b4c698acd24"/>
+    <recordManagerType typeId="1b0b7999-2bc0-4350-b0a0-4af88099799e" valueTypeId="f85d9cf6-482e-4bf3-a70a-396fffb82f59"/>
+  </producedTypes>
+  <name>БЗ_СтатистикаНовостейБазыЗнаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика новостей базы знаний</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="862b4f74-b0a1-4e26-9c9b-816bdd446e6b">
+    <name>Просмотры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просмотры</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1617192b-c694-4119-84d1-b129cad8baa6">
+    <name>Создана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создана</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="957deae9-9fbf-4a07-9a2c-af8c743275aa">
+    <name>Комментарии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарии</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b5a5a7d1-1b41-4708-a2bc-60e08fc909a2">
+    <name>Новость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новость</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БЗ_НовостиБазыЗнаний</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

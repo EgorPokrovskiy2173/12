@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e786f7e-bf91-4306-bc15-b99f4bf7843e">
+  <producedTypes>
+    <selectionType typeId="cf34c508-ac41-410b-81e1-2e17623b723b" valueTypeId="7c07a28d-03c3-4dd9-a563-45d8d9bb17d3"/>
+    <listType typeId="d229eb7d-d5d2-4292-b2b2-5f0d289f86aa" valueTypeId="de5c8d92-c102-4493-9e86-eb30be1cba91"/>
+    <managerType typeId="b392cf4a-8d18-47a0-aea9-f06438f66b81" valueTypeId="81c79b75-4079-4ea7-8f2b-c43096a0d05a"/>
+    <recordSetType typeId="f2ee69e4-d034-4770-86e1-ab0db810b5e5" valueTypeId="3a851f57-bac4-4867-8171-14089e436099"/>
+    <recordKeyType typeId="31534365-119a-4989-a42b-19a91b21d9de" valueTypeId="8173c105-9110-48df-be1c-eef6392b7725"/>
+    <recordType typeId="d990734f-c298-4f23-9398-fc65471e65ac" valueTypeId="9d909561-033c-4bca-9b1d-95ee1b4fd2bd"/>
+    <recordManagerType typeId="723b57e6-2d76-4144-b4f1-6ba6b0162cff" valueTypeId="81dbef84-07b3-4c0d-896e-0e6a240b89bf"/>
+  </producedTypes>
+  <name>БЗ_ХранилищеФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранилище файлов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultRecordForm>InformationRegister.БЗ_ХранилищеФайлов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.БЗ_ХранилищеФайлов.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <resources uuid="5eb3cf85-0012-4e45-a9ff-5c8030fbcaba">
+    <name>ХранилищеДвоичныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище двоичных данных</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="b0928af1-e9ce-4ec9-a43c-02fa3b379dac">
+    <name>ПутьФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="4662d518-ae2f-492d-9364-56112c287e8c">
+    <name>ОбъектУИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект УИД</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d6e3a764-ef26-4d9f-9b4d-2af4855dad1e">
+    <name>ОбъектСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект ссылка</value>
+    </synonym>
+    <comment>Хранение ссылки на объект Не позволит штатными средствами удалить объект без очистки всех прикреплений</comment>
+    <type>
+      <types>CatalogRef.БЗ_СтатьиБазыЗнанийПрисоединенныеФайлы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="4e1f3840-023b-4414-b1f3-49e415e07073">
+    <name>МестоХраненияФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения файлов</value>
+    </synonym>
+    <type>
+      <types>EnumRef.БЗ_МестоХраненияПрикрепленныхФайлов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="ad2e0398-7092-4172-98d3-2baeb2ad41a4">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </dimensions>
+  <dimensions uuid="57b9e6ac-e226-40da-b969-5164a5c10735">
+    <name>РасширениеИмениФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширение имени файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </dimensions>
+  <dimensions uuid="f91ba24d-a0da-4e8a-9bd4-45d69d02416f">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.ВнешниеПользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <forms uuid="996af596-fbb5-43d7-8a99-39da91d363b9">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e2db3eb9-4564-4f80-ae81-49b6e8c52b88">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0a8c57b2-c14f-4830-a37c-b255de30364b">
+    <name>УпрФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упр форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

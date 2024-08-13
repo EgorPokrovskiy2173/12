@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f45b6cf4-29fe-4b78-9282-f4e09876a5e5">
+  <name>БЗ_ВыдачаСтатейНаИзучение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выдача статей на изучение</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.БЗ_ВыдачаСтатейНаИзучение</content>
+  <parentSubsystem>Subsystem.БЗ_СправочнаяИнформация</parentSubsystem>
+</mdclass:Subsystem>

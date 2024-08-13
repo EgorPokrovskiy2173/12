@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="124b4566-0481-4a6a-8f14-e8ad4c993df9">
+  <name>БЗ_БазаЗнанийСброситьЗначениеРеквизитаУпорядочивания</name>
+  <synonym>
+    <key>ru</key>
+    <value>База знаний сбросить значение реквизита упорядочивания</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.БЗ_КатегорииБазыЗнаний</types>
+    <types>CatalogObject.БЗ_СтатьиБазыЗнаний</types>
+  </source>
+  <event>OnCopy</event>
+  <handler>CommonModule.НастройкаПорядкаЭлементов.БЗ_СброситьЗначениеРеквизитаУпорядочивания</handler>
+</mdclass:EventSubscription>

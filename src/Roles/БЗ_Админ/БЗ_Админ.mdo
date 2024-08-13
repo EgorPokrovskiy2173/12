@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc94dfd5-be59-4d9d-b54b-7f30367f3c75">
+  <name>БЗ_Админ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Админ (База знаний)</value>
+  </synonym>
+</mdclass:Role>

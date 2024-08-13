@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3542e1cb-2ff5-4ed9-8b1a-1810547eb7f4">
+  <producedTypes>
+    <selectionType typeId="2a018938-ac09-4895-94c6-8a77c5e5cddd" valueTypeId="f4b9aa39-d942-4499-985e-126ce1d3cb24"/>
+    <listType typeId="ff293330-49ef-460c-a7a7-3cac52530168" valueTypeId="6cb7808c-1025-4989-969c-fe5ba4dae1e7"/>
+    <managerType typeId="04baea26-1e10-4c65-b97c-4063eb958148" valueTypeId="cfab2157-89c9-44f5-a77e-1ce67b7acd87"/>
+    <recordSetType typeId="d9c4d346-4344-424f-8b13-eb4289085fdb" valueTypeId="23a0c94b-7cc9-43b9-a1f9-2c1be079e682"/>
+    <recordKeyType typeId="705c5159-2b2a-45b1-a868-2e6024c374dd" valueTypeId="4c5cea4e-9bf1-4704-8e61-2222c4c69d1c"/>
+    <recordType typeId="3a41c6ad-dc9c-42fb-a6b5-6514648410e7" valueTypeId="6f8c8116-d39c-41b0-8711-258a79c45a97"/>
+    <recordManagerType typeId="73219e8a-96ff-4c6c-8b9c-6d07c7f2f1f6" valueTypeId="cc2f87e0-5f43-4df1-af13-e3b1e3c4a7dd"/>
+  </producedTypes>
+  <name>БЗ_ПолучателиНовостейБазыЗнаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получатели новостей базы знаний</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b9eac91b-7851-438d-bf11-3597ad4f622d">
+    <name>Просмотрено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просмотрено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="6505e8e8-02f5-41e0-9c1b-c374cb1ede30">
+    <name>Новость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новость</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БЗ_НовостиБазыЗнаний</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="93e5aa50-8055-4cfd-9d98-9ecbf1a554ee">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если пустое значение, то новость предназначена для всех пользователей</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="923d788c-8de7-4498-8201-c9e8b0c51e12">
+    <name>УдалитьПользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БЗ_ПользователиБазыЗнаний</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если пустое значение, то новость предназначена для всех пользователей</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

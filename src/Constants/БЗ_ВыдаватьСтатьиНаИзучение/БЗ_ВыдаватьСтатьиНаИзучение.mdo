@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c709ab4-e294-4abd-821d-ddc37878850f">
+  <producedTypes>
+    <managerType typeId="e5a901a8-26ae-45d9-a6e6-c695f0b7be93" valueTypeId="d43a1e56-3dd4-40cd-bfea-067bde348b72"/>
+    <valueManagerType typeId="05178376-612c-47c2-b53b-d90dba72ab4c" valueTypeId="125c2cd7-eaa5-4421-94be-f86bfa7cd6c6"/>
+    <valueKeyType typeId="cee8bd8f-b9aa-4b33-9698-57b32b1b51c6" valueTypeId="1ae08a19-a41c-44af-ba9f-9dae14301eef"/>
+  </producedTypes>
+  <name>БЗ_ВыдаватьСтатьиНаИзучение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выдавать статьи на изучение сотрудникам</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

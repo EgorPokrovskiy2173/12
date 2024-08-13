@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8fa647c3-5029-4001-911f-f60ab2e2a8d3">
+  <producedTypes>
+    <selectionType typeId="9d1deda1-6f22-4661-a1f9-ed39c91c96f2" valueTypeId="26829ebc-cd6c-4893-93eb-4725440300f6"/>
+    <listType typeId="96e7588e-05f6-4a1f-91ad-8c40c8df61fe" valueTypeId="99ca9311-9e30-44f9-a25c-a8b62afd1474"/>
+    <managerType typeId="eced1eee-4b11-4eb0-82ba-458ed20f06b3" valueTypeId="7f10ba70-b4c2-4a3d-a95f-7e8815f971e9"/>
+    <recordSetType typeId="ecdda074-f42d-48aa-83a3-2564392a7e92" valueTypeId="ebd721f2-d0ea-472e-a1f1-56575adcc101"/>
+    <recordKeyType typeId="40751c31-43a3-41fc-84c4-d52f0f8c0232" valueTypeId="e90575a0-0e42-4d1c-9f02-c8e788c2a977"/>
+    <recordType typeId="a0dfb962-fa58-47cf-95a8-41204d20dba0" valueTypeId="8d7c5812-4de7-429d-9e84-429f332eb029"/>
+    <recordManagerType typeId="19f1ca37-d2db-49e3-9de6-7c79e607df6a" valueTypeId="5cebd31d-6368-4b80-a773-435774e53c84"/>
+  </producedTypes>
+  <name>БЗ_ДвоичныеДанныеФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Двоичные данные файлов (База знаний)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.БЗ_ДвоичныеДанныеФайлов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.БЗ_ДвоичныеДанныеФайлов.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b0858fd0-f20a-4c6a-a4cd-2c4e9faedb3e">
+    <name>ДвоичныеДанныеФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Двоичные данные файла</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="301561d8-ee03-491a-9e55-2cafdd7087e9">
+    <name>Файл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БЗ_СтатьиБазыЗнанийПрисоединенныеФайлы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Присоединенный файл, к которому относятся данные</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="864af32a-869b-4f77-b474-6f16f800536e">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b835aa98-3a1f-4fb8-8df7-7201320ede05">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b969e1e8-8d16-4e59-a144-e1b67f47f115">
+  <producedTypes>
+    <refType typeId="94babb55-f509-4a0e-b647-7b43d78fb38e" valueTypeId="de5ac37b-80ed-4574-bb46-98a88e809706"/>
+    <listType typeId="cb93ae42-86f0-43fc-83f2-922cf63b74f3" valueTypeId="6504b34e-cc36-4b97-bf8d-e385efd90358"/>
+    <managerType typeId="dddb3c15-d322-494f-843e-e443f5d541d3" valueTypeId="aa9627a4-f51a-486b-9072-3d2fd9cfc92b"/>
+  </producedTypes>
+  <name>БЗ_МестоХраненияПрикрепленныхФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Место хранения прикрепленных файлов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8a7d4235-a444-473e-93b1-75e359a9a4f7">
+    <name>ОбщийДисковыйРесурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общий дисковый ресурс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3efa92e6-850e-45ce-86a2-9b43b8f92348">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

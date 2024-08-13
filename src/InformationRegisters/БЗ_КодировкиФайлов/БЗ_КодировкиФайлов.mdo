@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b5d027c-3c71-4fb9-8126-3b3ea1eab768">
+  <producedTypes>
+    <selectionType typeId="1ef3088c-e6d0-44a4-ad97-c3b7793a1ecd" valueTypeId="870167fa-5e36-47f7-8b11-8818e328ddb9"/>
+    <listType typeId="73450702-d60b-42ed-b542-002f6205f9e1" valueTypeId="a6d2941e-3b9c-4c54-a4d0-4149e76b1069"/>
+    <managerType typeId="b6acbb8f-e11b-43dc-8c06-cd1dc3ef7735" valueTypeId="cb6bc789-d832-48e7-bd09-f78ac51bcc65"/>
+    <recordSetType typeId="754bda03-2ad4-4b80-8751-f8b1ded20ebe" valueTypeId="f6b40bfc-d141-4784-846b-42ed0f03017b"/>
+    <recordKeyType typeId="6a26f64f-857e-4634-891a-a84224d17fad" valueTypeId="efec5601-e83b-4323-9458-306f304cb263"/>
+    <recordType typeId="63e85f97-ba0a-4acd-84c1-234e9b5df572" valueTypeId="1af3d703-d6be-4ef2-ad55-b651a6885b06"/>
+    <recordManagerType typeId="251463e7-b2f1-451e-ae26-d6922d09444c" valueTypeId="59ab2e92-78e9-4190-99a2-bde312e03a13"/>
+  </producedTypes>
+  <name>БЗ_КодировкиФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кодировки файлов (База знаний)</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7282f46d-ef5b-4da8-bb79-448eb70da37e">
+    <name>Кодировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кодировка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Кодировка версии файла</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="d2460706-200a-434e-b074-fd93a82fc581">
+    <name>Файл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БЗ_СтатьиБазыЗнанийПрисоединенныеФайлы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Версия файла, которой указана кодировка.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

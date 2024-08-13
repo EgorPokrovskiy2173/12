@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfbf7b25-17ce-43ce-94ec-c327aa0daa08">
+  <producedTypes>
+    <objectType typeId="9d38a946-3eda-4a09-9a41-88bce2de00c7" valueTypeId="a6cc46e0-008c-42dc-991b-47dafa9ad3a9"/>
+    <managerType typeId="03656ca8-e1af-4578-9699-730e65287605" valueTypeId="bd539985-a2b4-433b-b271-3b13e804780e"/>
+  </producedTypes>
+  <name>БЗ_ВыдачаСтатейНаИзучение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выдача статей на изучение</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.БЗ_ВыдачаСтатейНаИзучение.Form.СтатьиДляИзучения</defaultForm>
+  <forms uuid="a5c88426-25d3-481e-90fc-538b1c73f957">
+    <name>СтатьиДляИзучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статьи для изучения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

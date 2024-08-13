@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db6470f2-6acb-4449-bfc4-2e4382282c5b">
+  <producedTypes>
+    <managerType typeId="f473623c-09c4-4523-b4fa-58aafd9dbae1" valueTypeId="abba834b-0ddc-4588-909b-d141918bd834"/>
+    <valueManagerType typeId="971a8a2d-912b-4050-a2d2-c8002890591c" valueTypeId="2b971bbf-de06-4179-88ae-3fa64c6521a6"/>
+    <valueKeyType typeId="653e46c3-33fa-4eaa-b38b-a4af12688902" valueTypeId="c6208757-530e-4f90-9973-bf774eda673d"/>
+  </producedTypes>
+  <name>БЗ_ИдентификаторКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификатор клиента в базе знаний</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>15</length>
+      <fixed>true</fixed>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.БЗ_НастройкиБазыЗнаний</defaultForm>
+  <mask>99-XXXXXXXXXXXX</mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
